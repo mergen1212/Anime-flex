@@ -1,11 +1,11 @@
 <script lang="ts">
-    export let data;
+	import CurrentAnimeSisson from "$lib/components/CurrentAnimeSisson.svelte";
+	import Info from "$lib/components/Info.svelte";
+	import type { PageData } from "./$types";
 
+	
+	let { data }: { data: PageData } = $props();
 </script>
-<svelte:head>
-  <title>Home</title>
-  <meta name="description" content="Learn more about our Svelte application" />
-</svelte:head>
-{#each data.posts as i}
-    <p>{i.title}</p>
-{/each}
+
+<Info />
+<CurrentAnimeSisson Anime={data.InfoAnime} />

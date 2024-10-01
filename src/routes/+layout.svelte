@@ -1,9 +1,11 @@
 <script lang="ts">
-    import { base } from '$app/paths';
+	import Hader from '$lib/components/Hader.svelte';
+	
+	import '../app.css';
 </script>
-
-<nav>
-    <a href="{base}/">Home</a>
-    <a href="{base}/about">About</a>
-</nav>
-<slot />
+<svelte:head>
+  <title>Anime</title>
+  <meta name="description" content="Anime innformation" />
+</svelte:head>
+<Hader />
+<slot/>
