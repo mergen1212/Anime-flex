@@ -6,7 +6,7 @@
 	<div class="contener">
 		<div class="row">
 			<div class="col">
-				<h1 class="h1_description_text">AnimeGO — смотреть аниме онлайн бесплатно</h1>
+				<h1 class="h1_description_text">Anime-flex — смотреть аниме онлайн бесплатно</h1>
 				<div class="description_text">
 					<p>
 						Вот уже много лет японская анимация пользуется огромным успехом по всему миру, включая
