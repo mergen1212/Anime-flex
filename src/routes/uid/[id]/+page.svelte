@@ -5,7 +5,9 @@
 </script>
 
 <div class="anime-page">
-	
+	<div class="anime-header">
+		<h1>{data.InfoAnime.data.title}</h1>
+	</div>
 	<div class="anime-content">
 		<div class="anime-image">
 			<img src={data.InfoAnime.data.images.jpg.large_image_url} alt={data.InfoAnime.data.title} />
