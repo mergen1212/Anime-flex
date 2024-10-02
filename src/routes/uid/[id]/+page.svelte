@@ -11,5 +11,10 @@
 		{:else}
 			<p>Loading...</p>
 		{/if}
+		{#if data && data.InfoAnime && data.InfoAnime.data}
+			<img src={data.InfoAnime.data.images.webp.image_url} alt="loading" />
+		{:else}
+			<p>Loading...</p>
+		{/if}
 	</div>
 </div>
