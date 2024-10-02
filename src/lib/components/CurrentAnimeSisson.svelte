@@ -1,7 +1,5 @@
 <script lang="ts">
-	import type { AnimeList } from "../entity";
-
-	
+	import type { AnimeList } from '../entity';
 
 	let { Anime }: { Anime: AnimeList } = $props();
 </script>

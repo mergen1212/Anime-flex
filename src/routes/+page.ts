@@ -1,4 +1,3 @@
-
 import type { AnimeList } from '$lib/entity';
 import type { LoadEvent } from '@sveltejs/kit';
 
