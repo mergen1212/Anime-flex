@@ -28,7 +28,7 @@
 	}
 
 	.contener {
-		max-width: 540px;
+		width: clamp(200px,50vw,1000px);
 	}
 
 	.animeList {
@@ -55,9 +55,7 @@
 		width: 100%;
 	}
 	@media (min-width: 230px) {
-		.contener {
-			max-width: 200px;
-		}
+		
 		.animeList {
 			display: grid;
 			grid-template-columns: repeat(1, 1fr); /* 4 колонки */
@@ -66,9 +64,7 @@
 	}
 
 	@media (min-width: 530px) {
-		.contener {
-			max-width: 500px;
-		}
+		
 		.animeList {
 			display: grid;
 			grid-template-columns: repeat(2, 1fr); /* 4 колонки */
@@ -76,9 +72,7 @@
 		}
 	}
 	@media (min-width: 768px) {
-		.contener {
-			max-width: 720px;
-		}
+		
 		.animeList {
 			display: grid;
 			grid-template-columns: repeat(2, 1fr); /* 4 колонки */
@@ -86,9 +80,7 @@
 		}
 	}
 	@media (min-width: 992px) {
-		.contener {
-			max-width: 960px;
-		}
+		
 		.animeList {
 			display: grid;
 			grid-template-columns: repeat(3, 1fr); /* 4 колонки */
@@ -96,9 +88,7 @@
 		}
 	}
 	@media (min-width: 1200px) {
-		.contener {
-			max-width: 1140px;
-		}
+		
 		.animeList {
 			display: grid;
 			grid-template-columns: repeat(3, 1fr); /* 4 колонки */
@@ -106,9 +96,7 @@
 		}
 	}
 	@media (min-width: 1400px) {
-		.contener {
-			max-width: 1340px;
-		}
+		
 		.animeList {
 			display: grid;
 			grid-template-columns: repeat(4, 1fr); /* 4 колонки */
